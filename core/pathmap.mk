@@ -111,6 +111,7 @@ FRAMEWORKS_BASE_SUBDIRS := \
 	    media/mca/effect \
 	    media/mca/filterfw \
 	    media/mca/filterpacks \
+	    suda \
 	    drm \
 	    opengl \
 	    sax \
@@ -203,4 +204,3 @@ FRAMEWORKS_DATA_BINDING_SUBDIRS := \
 #
 FRAMEWORKS_DATA_BINDING_JAVA_SRC_DIRS := \
 	$(addprefix frameworks/data-binding/,$(FRAMEWORKS_DATA_BINDING_SUBDIRS))
-
